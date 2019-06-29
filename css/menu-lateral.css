@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: yellow;
+}
+.quadro {
+    background-color: #11ff00;
+    width: 60px;
+    height: 120px;
+    margin-top: 150px;
+    border: 1px solid white;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    display: block;
+}
+.quadro #rede {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.quadro #contato{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+p {
+    margin: 100px;
+}
+@media(max-width: 520px) {
+    .quadrado #rede #contato {
+        display: inline;
+    }
+}
